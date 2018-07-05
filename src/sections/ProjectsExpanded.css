@@ -1,0 +1,190 @@
+.projects .container
+{
+  padding: 250px 20px 250px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.project
+{
+  width: 100%;
+  margin-bottom: 60px
+}
+
+.project-img
+{
+  background-size: cover;
+  background-position: center;
+  height: 225px;
+  border-style: solid;
+  border-width: 3px 0 3px 0;
+  border-color: #E3E3E3;
+}
+
+.projects .description
+{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 20px;
+  color: #333333;
+}
+
+.projects .description h3
+{
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+.projects .description h4
+{
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin: 0;
+}
+
+@media (min-width: 576px) {
+  .projects .container
+  {
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+
+  .project-img
+  {
+    height: 300px;
+  }
+}
+
+@media (min-width: 768px) {
+  .projects .container
+  {
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+
+  .project-img
+  {
+    height: 350px;
+  }
+}
+
+@media (min-width: 992px) {
+  .projects .container
+  {
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+    padding: 250px 20px 250px 20px;
+    grid-column-gap: 20px;
+    grid-row-gap: 15px;
+  }
+
+  .project-img
+  {
+    height: 300px;
+  }
+
+  .projects .description h3
+  {
+    font-size: 1.1rem;
+  }
+
+  .projects .description h4
+  {
+    font-size: 1.1rem;
+  }
+
+  .project
+  {
+    margin: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .projects .container
+  {
+    padding: 250px 50px 250px 50px;
+    grid-column-gap: 50px;
+    grid-row-gap: 15px;
+  }
+
+  .project-img
+  {
+    height: 300px;
+  }
+
+  .projects .description h3
+  {
+    font-size: 1.2rem;
+  }
+
+  .projects .description h4
+  {
+    font-size: 1.2rem;
+  }
+}
+
+
+#pr1
+{
+  background-image: url('images/projects/1.jpg');
+}
+
+#pr2
+{
+  background-image: url('images/projects/2.jpg');
+}
+
+#pr3
+{
+  background-image: url('images/projects/3.jpg');
+}
+
+#pr4
+{
+  background-image: url('images/projects/4.jpg');
+}
+
+#pr5
+{
+  background-image: url('images/projects/5.jpg');
+}
+
+#pr6
+{
+  background-image: url('images/projects/6.jpg');
+}
+
+#pr7
+{
+  background-image: url('images/projects/7.jpg');
+}
+
+#pr8
+{
+  background-image: url('images/projects/8.jpg');
+}
+
+#pr9
+{
+  background-image: url('images/projects/9.jpg');
+}
+
+#pr10
+{
+  background-image: url('images/projects/10.jpg');
+}
+
+#pr11
+{
+  background-image: url('images/projects/11.jpg');
+}
+
+#pr12
+{
+  background-image: url('images/projects/12.jpg');
+}
